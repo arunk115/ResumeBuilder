@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <title>Sample Template</title>
+</head>
+
+<body>
+
+<header>
+    <h3>Sample Template</h3>
+</header>
+<div>
+   <p>Poda pundaloka $name</p>
+</div>
+
+</body>
+
+</html>
