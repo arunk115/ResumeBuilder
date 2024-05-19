@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript login form</title>
+    <link rel="stylesheet" type="text/css" href="../css/loginform.css">
+    <script src="../js/loginform.js"></script>
+  </head>
+  <body>
+    <div class="login-form">
+      <form id="form" method="post">
+        <h1 class="loginTitle">LOGIN</h1>
+        <div class="input">
+          <input type="text" id="uname" placeholder="Username" required />
+        </div>
+        <div class="input">
+          <input type="password" id="pword" placeholder="Password" required />
+        </div>
+        <div class="forgot">
+          <a href="#">Forgot password?</a>
+        </div>
+        <button type="submit" onclick="validate()">Login</button>
+      </form>
+    </div>
+  </body>
+</html>

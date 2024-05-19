@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+.login-form{
+    width: 420px;
+    background:transparent;
+    position: relative;
+    border: 4px solid rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(29px);
+    box-shadow: 0 0 20px rgba(1, 1, 1, 1);
+    background: linear-gradient(to bottom, rgba(3, 3, 71, 0.5), rgba(2, 2, 79, 0.05));
+    color: #fff;
+    background-color: rgb(197, 197, 208);
+    border-radius: 25px;
+    padding: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: "Play", sans-serif;
+    background-image: url(Background-Login3.jpg);
+    background-size: cover;
+}
+
+.loginTitle{
+    display: flex;
+    justify-content: center;
+    font-weight: 1200;
+    font-size: 40px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 10px;
+    margin: 35px 0;
+    margin-bottom: 55px;
+}
+
+.input input{
+    width: 100%;
+    height: 100%;
+    background:#a09d9d;
+    border: none;
+    outline: none;
+    border: 2px solid #fff;
+    border-width: 5px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input input::placeholder{
+    color: #fff;
+}
+
+.forgot{
+    display: flex;
+    justify-content: center;
+    font-size: 14.5px;
+    margin: -15px 0px 15px;
+}
+
+.forgot a{
+    color: #fff;
+    margin-right: 4px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    border-radius: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
