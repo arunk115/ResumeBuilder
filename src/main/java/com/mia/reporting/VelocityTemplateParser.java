@@ -19,7 +19,7 @@ public class VelocityTemplateParser {
 		Template template = velocityEngine.getTemplate("templates/sample.vm");
 		
 		VelocityContext context = new VelocityContext();
-		context.put("name", "Subbu");
+		context.put("name", "Sakshith");
 		
         StringWriter writer = new StringWriter();
         template.merge(context, writer);
